@@ -2,12 +2,15 @@
   "name": "dia-consciente",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "scripts": {
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+  "devDependencies": {
+    "parcel": "^2.9.3"
   }
 }
